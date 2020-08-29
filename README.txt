@@ -8,7 +8,7 @@
 #_____"""_____#
 Servidor web para páginas estáticas
 
-#difina suas urls no arquivo urls.py, crie seu template na pasta de templates
+#defina suas urls no arquivo urls.py, crie seu template na pasta de templates
 
 ##python3 server.py
 
