@@ -7,7 +7,7 @@ class Server(BH):
         
         def error_404():
             html = open(http_404).read()
-            self.send_response(400)
+            self.send_response(404)
                 
             self.end_headers()
             self.wfile.write(bytes(html, "utf-8"))
